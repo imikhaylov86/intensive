@@ -16,7 +16,7 @@ elif taxyn == 'нет':
     custom_tax = int(input('Введите ставку налога на доход: '))
     tax = full_salary * custom_tax / 100
 
-# workdays = int(input('Введите количество отработанных дней: '))
+workdays = int(input('Введите количество отработанных дней: '))
 
 day_cost = (full_salary - tax) / workdays
 hour_cost = day_cost / 8
